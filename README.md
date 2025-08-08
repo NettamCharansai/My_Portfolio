@@ -20,9 +20,7 @@
    # or
    yarn
 Start the development server
-
 yarn run start
 
 Build and run for production
-
 npm run build
