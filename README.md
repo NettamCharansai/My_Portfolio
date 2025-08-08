@@ -9,7 +9,7 @@
 </p>
 
 <!-- Optional: Replace this screenshot with your own project screenshot -->
-<img width="1306" alt="Portfolio Screenshot" src="https://user-images.githubusercontent.com/32211479/111238274-24f8b100-85cd-11eb-9d5a-00f07cbc05e9.png">
+<img width="1306" alt="Portfolio Screenshot" src="[https://user-images.githubusercontent.com/32211479/111238274-24f8b100-85cd-11eb-9d5a-00f07cbc05e9.png](https://github.com/NettamCharansai/My_Portfolio/blob/main/public/assets/portfolio.jpg)">
 
 ## 🛠 Setup
 
