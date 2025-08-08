@@ -82,39 +82,43 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Amazon: {
-      jobTitle: "Software Development Engineer @",
-      duration: "JUL 2022 - PRESENT",
+    Turing: {
+      jobTitle: "Python Developer @",
+      duration: "JUL 2025 - PRESENT",
       desc: [
-        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
-        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers."
+        "Engineered end-to-end backend pipelines for client-facing applications using Python and FastAPI, significantly improving data ingestion speed and reliability for real-time platforms.",
+        "Automated core backend workflows, reducing manual API deployment time from hours to under 10 minutes using Dockerized CI/CD pipelines.",
+        "Shipped production-ready APIs powering global services across multiple clients in fintech and SaaS sectors."
       ]
     },
-    Wattpad: {
-      jobTitle: "Associate Engineer @",
-      duration: "MAY 2020 - APR 2021",
+    Google: {
+      jobTitle: "Google career Launchpad Trainee @",
+      duration: "FEB 2025 - JUN 2025",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations."
+        "Selected as one of the members of the competitive Google Cloud Career Launchpad – APAC program. Gained hands-on experience with Google Cloud technologies including Compute Engine, BigQuery, Cloud Functions, and Cloud Run. Completed skill-based learning paths and projects covering cloud infrastructure, data analytics, DevOps, and machine learning.",
+        "Built and deployed scalable applications using Google Cloud.",
+        "Completed practical labs on Qwiklabs/Cloud Skills Boost with real-world GCP environments.",
+        "Collaborated in a cohort-based learning community to solve technical challenges."
+        
       ]
     },
-    "University of Toronto": {
-      jobTitle: "Research Engineer @",
-      duration: "MAY 2021 - SEPT 2021",
+    "DRDO - RCI LAB": {
+      jobTitle: "Summer Intern @",
+      duration: "JULY 2024 - SEPT 2024",
       desc: [
-        "Developed and researched an NLP-based framework using state-of-the-art tools like Spacy and Stanza to facilitate the derivation of requirements from health data by leveraging syntactic dependencies, entity-recognition and rule-based match-making.",
-        " Application selected for DCS Research Award ($4,000) as part of the ”Visualizing Privacy Analysis Results” project led by Professor Marsha Chechik."
+        "Developed a machine learning pipeline combining Support Vector Regression, Random Forest, and Quantum Neural Networks for real-time trajectory prediction and breach detection in aerospace systems, achieving over 97% accuracy.",
+        "Designed a real-time GUI using React.js and Python for live monitoring and alerts, compliant with MIL-STD-1553 for secure data exchange in defense networks.",
+        "Contributed to mission-critical defense-grade analytics, enhancing prediction speed, system responsiveness, and national security reliability."
       ]
     },
-    Centivizer: {
-      jobTitle: "Software Developer @",
-      duration: "SEPT 2019 - APR 2020",
-      desc: [
-        "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
-        "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
-      ]
-    },
+    //Centivizer: {
+    //jobTitle: "Software Developer @",
+    //  duration: "SEPT 2019 - APR 2020",
+    //  desc: [
+    //    "Developed interactive and neural-activation technologies to stimulate physical and cognitive functions in order to slow the progression of neurodegenerative disorders.",
+    //    "Leveraged WebRTC to develop and maintain a Node.js online video-streaming platform in real-time competitive-mode games to research the effects of active stimulation for those suffering from dementia."
+    //  ]
+    //},
     // TDSB: {
     //   jobTitle: "Software Engineer @",
     //   duration: "SEPT 2019 - DEC 2020",
@@ -122,15 +126,15 @@ const JobList = () => {
     //     "Co-developed homework management software integrable with Google Classroom by utilizing the Python’s Flask micro-framework for the back-end API and Vue.js for the front-end UI, in order to translate business requirements into a functional full-stack application."
     //   ]
     // },
-    "Orange Gate": {
-      jobTitle: "Software Developer Intern @",
-      duration: "MAY 2019 - AUG 2019",
-      desc: [
-        "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
-        "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
-        "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
-      ]
-    }
+    //"Orange Gate": {
+    //  jobTitle: "Software Developer Intern @",
+    //  duration: "MAY 2019 - AUG 2019",
+    //  desc: [
+    //    "Developed a Node.js smart home system through Facebook’s Messenger integrated with Bocco sensors and other smart devices (Nest camera, TPLink smart plugs) to derive conclusions about the current state of the home",
+    //    "Identified continuous improvements in data quality, design reports and coding activities, presenting results and findings to internal business stakeholders.",
+    //    "Relevant technologies/tools used: DialogFlow, Vision, AutoML, Messenger Bot API, MongoDB."
+    //  ]
+    //}
   };
 
   const handleChange = (event, newValue) => {

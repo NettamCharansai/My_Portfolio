@@ -22,86 +22,86 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
-        title: "no man's land",
+      "S I M S": {
+        title: "Stock Management System",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+          "",
+        techStack: "PHP, Blade, Vue.js, JavaScript, SCSS, Sass, CSS",
+        link: "https://github.com/NettamCharansai/CableInventory-Analytics",
+        open: "https://github.com/NettamCharansai/CableInventory-Analytics",
+        image: "/assets/sims.png"
       },
-      Truth: {
-        title: "truth",
-        desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
-      },
-      "Tall Tales": {
-        title: "tall tales",
-        desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
-      },
+      //Truth: {
+      // title: "truth",
+      //  desc:
+      //    "A three.js simulation of the planet system revolving around a monolith.",
+      //  techStack: "JAVASCRIPT (THREE.JS)",
+      //  link: "https://github.com/gazijarin/truth",
+      //  open: "https://gazijarin.github.io/Truth/",
+      //  image: "/assets/truth.png"
+      //},
+      //"Tall Tales": {
+      //  title: "tall tales",
+      //  desc:
+      //    "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
+      //  techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
+      //  link: "https://github.com/gazijarin/TallTales",
+      //  open: "https://talltales.herokuapp.com/",
+      //  image: "/assets/talltales.png"
+      //},
       Portfolio: {
-        title: "portfolio.js",
+        title: "portfolio",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
+          "A personal portfolio website showcasing my projects, skills, and achievements with a modern, responsive design.",
         techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+        link: "https://github.com/NettamCharansai",
+        open: "https://github.com/NettamCharansai",
+        image: "/assets/portfolio.jpg"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "Docker-Airflow-Master": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
-      },
-      "Adam A.I.": {
-        desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
-      },
-      "Distributed Logging and Monitoring System": {
-        desc:
-          "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-        techStack: "Node.js (Express.js), React.js, PostgreSQL",
-        link:
-          "https://github.com/gazijarin/Distributed-Logging-and-Monitoring-System"
-      },
-      "Odin Bot": {
-        desc:
-          "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
-        techStack: "Javascript, Node.js, Natural NLP, Telegram API",
-        link: "https://github.com/gazijarin/OdinBot",
+          "A Dockerized Apache Airflow setup with PostgreSQL and Redis for streamlined workflow orchestration and scalable task execution.",
+        techStack: "Docker, Apache Airflow, PostgreSQL, Redis, Python",
+        link: "https://github.com/NettamCharansai/Docker-Airflow-Master",
         open: ""
       },
-      "Game Centre": {
+      "Lossy Floating-Point Compression.": {
         desc:
-          "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
-        techStack: "Java, Android Studio",
-        link: "https://github.com/gazijarin/gamecentre",
+          "A study on lossy floating-point compression by truncating mantissa bits, analyzing compression gains against statistical and numerical accuracy.",
+        techStack: "Python, Numpy, Matplotlib, SciPy",
+        link: "https://github.com/NettamCharansai/Lossy_FP_Compression",
         open: ""
       },
-      "Minimax Stonehenge": {
+      "Crypto_Pulse": {
         desc:
-          "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
+          "A high-frequency trading signal generator using Binance BTC/USDT order book data for price movement prediction.",
         techStack: "Python",
-        link: "https://github.com/gazijarin/stonehenge",
-        open: ""
+        link:
+          "https://github.com/NettamCharansai/Crypto_Pulse"
       }
+      //"Odin Bot": {
+      //  desc:
+      //    "A Telegram bot that helps you excel on your daily tasks through Node NLP.",
+      //  techStack: "Javascript, Node.js, Natural NLP, Telegram API",
+      //  link: "https://github.com/gazijarin/OdinBot",
+      //  open: ""
+      //},
+      //"Game Centre": {
+      //  desc:
+      //    "An Android app consisting of three board games, including multiplayer, autosave, user authentication, etc.",
+      //  techStack: "Java, Android Studio",
+      //  link: "https://github.com/gazijarin/gamecentre",
+      //  open: ""
+      //},
+      //"Minimax Stonehenge": {
+      //  desc:
+      //    "Two-player, zero-sum game with a strategic Minimax artificial intelligence.",
+      //  techStack: "Python",
+      //  link: "https://github.com/gazijarin/stonehenge",
+      //  open: ""
+      //}
     };
 
     return (
