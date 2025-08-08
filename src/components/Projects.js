@@ -29,7 +29,7 @@ class Projects extends React.Component {
         techStack: "PHP, Blade, Vue.js, JavaScript, SCSS, Sass, CSS",
         link: "https://github.com/NettamCharansai/CableInventory-Analytics",
         open: "https://github.com/NettamCharansai/CableInventory-Analytics",
-        image: "/assets/sims.png"
+        image: `${process.env.PUBLIC_URL}/assets/sims.png`
       },
       //Truth: {
       // title: "truth",
@@ -56,7 +56,8 @@ class Projects extends React.Component {
         techStack: "NODE.JS (EXPRESS.JS)",
         link: "https://github.com/NettamCharansai",
         open: "https://github.com/NettamCharansai",
-        image: "/assets/portfolio.jpg"
+        image: `${process.env.PUBLIC_URL}/assets/portfolio.jpg`
+
       }
     };
     const projects = {
